@@ -4,7 +4,8 @@ Olympics Data Analysis WebApp is an interactive website which contains analysis 
 Webapp link -  https://olympics-data-analysis120.herokuapp.com/
 
 ## Project Overview
-I wanted to know overall Olympics stats as well as explore which countries excel in which particular events and sports, also top 10 best athletes of each country.
+I wanted to know overall Olympics stats as well as explore which countries excel in which particular events and sports. Also, wanted to know the best athletes of every country
+and many more interesting stats.
 
 ## Datasets
 Two datasets were used for the analysis.
