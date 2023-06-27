@@ -55,7 +55,7 @@ def fetch_medal_tally(df, year, country):
 
 def data_over_time(df, col):
     nations_over_time = df.drop_duplicates(['Year', col])['Year'].value_counts().reset_index().sort_index()
-    nations_over_time.rename(columns={df.index.name: 'Edition', 'Year': col}, inplace=True)
+    nations_over_time.rename(columns={nations_over_time.index.name: 'Edition', 'Year': col}, inplace=True)
     return nations_over_time
 
 
